@@ -12,4 +12,19 @@ import { SigninComponent } from './signin/signin.component';
 })
 export class AppComponent {
   title = 'authentication';
+
+  emailReceived = '';
+  passwordReceived = '';
+  isAuthenticated = false;
+
+  authData(data: {email:string, password:string}){
+    this.emailReceived = data.email;
+    this.passwordReceived = data.password;
+
+    if(this.emailReceived==='sanyam@gmail.com' && this.passwordReceived==='sanyamsxn'){
+      this.isAuthenticated = true;
+    }
+  }
+
+
 }

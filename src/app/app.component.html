@@ -1,5 +1,10 @@
 <app-header/>
 
-<app-navigation/>
+@if(!isAuthenticated){
+    <app-signin (dataAuthenticate)="authData($event)"/>
+}
 
-<app-signin />
+@if(isAuthenticated){
+    <app-navigation/>
+}
+
