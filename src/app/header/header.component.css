@@ -1,0 +1,46 @@
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #283048, #859398);
+}
+
+#menu, #icon{
+    width: 50%;
+}
+li{
+    cursor: pointer;
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    margin-right: 5%;
+}
+
+#menu ul li{
+    list-style: none;
+    margin: 12px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #12343b;
+}
+
+#icon div{
+    margin-left: 10%;
+    background-color: whitesmoke;
+    width: 90px;
+    height:90px;
+    border-radius:50%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+#icon div i{
+    color: #12343b;
+    margin-top:10px ;
+}
