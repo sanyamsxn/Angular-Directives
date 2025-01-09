@@ -10,9 +10,9 @@ Including screenshots and code snippets: Include screenshots and code snippets i
 
     </p>
     <div id="buttons">
-        <button><a href="http://www.apache.org/"> APACHE </a></button>
-        <button><a href="https://www.nginx.com/">NGINX</a></button>
-        <button><a href="www.gnome.org">GNOME</a></button>
+        <button (click)="onClick('http://www.apache.org/', $event)"> APACHE </button>
+        <button (click)="onClick('https://www.nginx.com/', $event)">NGINX</button>
+        <button (click)="onClick('https://www.gnome.org', $event)">GNOME</button>
     </div>
 
 </div>

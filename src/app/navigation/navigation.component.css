@@ -18,11 +18,12 @@ button{
     background:#283048;
 }
 
-a{
+button{
     text-decoration: none;
     color: #eeeeee;
     font-weight: bold;
     font-size: 1rem;
+    cursor: pointer;
 }
 
 #buttons{
