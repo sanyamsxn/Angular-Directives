@@ -12,19 +12,20 @@ p{
     font-size: 1.2rem;
     padding: 0.5rem;
 }
-button{
+a{
     height: 45px;
     width: 100px;
     background:#283048;
-}
-
-button{
     text-decoration: none;
     color: #eeeeee;
     font-weight: bold;
     font-size: 1rem;
     cursor: pointer;
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
+
 
 #buttons{
     display: flex;
